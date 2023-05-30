@@ -12,7 +12,7 @@ Weather::Weather(string city, double lon, double lat, double temperature, string
 
 }
 
-void Weather::getWeather(){
+void Weather::getData(){
 
 	cout << city << ": lon(" << lon << "), lat(" << lat << "), t(" << temperature << "), погода(" << weather << "), скорость ветра(" << windSpeed << "), облачность(" << clouds << ")\n";
 

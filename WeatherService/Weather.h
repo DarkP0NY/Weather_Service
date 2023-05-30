@@ -21,7 +21,7 @@ public:
 
 	Weather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds);
 
-	void getWeather();
+	void getData();
 
 	friend std::ostream& operator<<(std::ostream&, Weather weather);
 
