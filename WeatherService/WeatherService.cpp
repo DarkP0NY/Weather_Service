@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include "Weather.h"
 #include <string>
+#include "JsonService.h"
 using namespace std;
 
 
@@ -8,8 +9,9 @@ void main() {
 
 	setlocale(0, "");
 
-	Weather weather("Киров", 49.6601, 58.5966, 5.69, "дождик", 4.27, 100);
+	JsonService test;
 
-	cout << weather;
+	cout << test.getWeather("weather.json");
+
 
 }
