@@ -12,4 +12,6 @@ void main() {
 
 	cout << weather;
 
+	cout;
+
 }
