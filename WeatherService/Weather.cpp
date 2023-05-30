@@ -20,6 +20,6 @@ void Weather::getData(){
 
 std::ostream& operator<<(std::ostream& out, Weather weatherrr)
 {
-	out << weatherrr.city << ": lon(" << weatherrr.lon << "), lat(" << weatherrr.lat << "), t(" << weatherrr.temperature << "), погода(" << weatherrr.weather << "), скорость ветра(" << weatherrr.windSpeed << "), облачность(" << weatherrr.clouds << ")\n";
+	out << weatherrr.city << ": \nlon(" << weatherrr.lon << "); \nlat(" << weatherrr.lat << "); \nt(" << weatherrr.temperature << "); \nпогода(" << weatherrr.weather << "); \nскорость ветра(" << weatherrr.windSpeed << "); \nоблачность(" << weatherrr.clouds << ")\n";
 	return out;
 }

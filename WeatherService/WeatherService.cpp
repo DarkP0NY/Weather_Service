@@ -13,5 +13,7 @@ void main() {
 
 	cout << test.getWeather("weather.json");
 
+	Weather w = test.getWeather("weather.json");
+
 
 }
