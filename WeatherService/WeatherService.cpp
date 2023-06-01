@@ -12,15 +12,21 @@ void main() {
 
 	JsonService test;
 
-	cout << test.getWeather("weather.json");
+	cout << test.getWeather("weather.json") << "\n";
+
+
 
 	Weather w = test.getWeather("weather.json");
 
-	cout << w;
+	cout << w << "\n";
+
+
 	
 	Weather weather("Киров", 49.6601, 58.5966, 5.69, "дождик", 4.27, 100);
 	
-	cout << weather;
+	cout << weather << "\n";
+
+
 
 	XmlService xs;
 
