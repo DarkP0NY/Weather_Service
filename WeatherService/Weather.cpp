@@ -14,12 +14,12 @@ Weather::Weather(string city, double lon, double lat, double temperature, string
 
 void Weather::getData(){
 
-	cout << city << ": lon(" << lon << "), lat(" << lat << "), t(" << temperature << "), погода(" << weather << "), скорость ветра(" << windSpeed << "), облачность(" << clouds << ")\n";
+	cout << city << ": lon(" << lon << "), lat(" << lat << "), t(" << temperature << "), weather(" << weather << "), wind speed(" << windSpeed << "), clouds(" << clouds << ")\n";
 
 }
 
 std::ostream& operator<<(std::ostream& out, Weather weatherrr)
 {
-	out << weatherrr.city << ": \nlon(" << weatherrr.lon << "); \nlat(" << weatherrr.lat << "); \nt(" << weatherrr.temperature << "); \nпогода(" << weatherrr.weather << "); \nскорость ветра(" << weatherrr.windSpeed << "); \nоблачность(" << weatherrr.clouds << ")\n";
+	out << weatherrr.city << ": \nlon(" << weatherrr.lon << "); \nlat(" << weatherrr.lat << "); \nt(" << weatherrr.temperature << "); \nweather(" << weatherrr.weather << "); \nwind speed(" << weatherrr.windSpeed << "); \nclouds(" << weatherrr.clouds << ")\n";
 	return out;
 }

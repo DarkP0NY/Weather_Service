@@ -8,7 +8,7 @@ using namespace std;
 
 void main() {
 
-	setlocale(0, "");
+	setlocale(LC_ALL, "Russian");
 
 
 	JsonService test;
